@@ -22,6 +22,7 @@ def new_feature():
 def name_function():
     first_name = input("First name:")
     last_name = input("Last name:")
+    full_name = [first_name, last_name]
     
 
 def interface():
