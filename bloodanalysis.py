@@ -15,7 +15,15 @@ def cholesterol_analysis():
     if test_info[0] == "HDL":
         answer = HDL_analysis(int(test_info[1]))
         print("The level is {}".format(answer))
+        
+def new_feature():
+    pass
 
+def name_function():
+    first_name = input("First name:")
+    last_name = input("Last name:")
+    full_name = [first_name, last_name]
+    
 
 def interface():
     choice = 0
