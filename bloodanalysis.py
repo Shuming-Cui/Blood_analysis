@@ -32,6 +32,7 @@ def cholesterol_analysis():
         answer = LDL_analysis(int(test_into[1]))
         print("The level is {}".format(answer))
 
+<<<<<<< HEAD
 
 def fever_check():
     fever = False
@@ -41,9 +42,16 @@ def fever_check():
     return fever
 
 
+=======
+>>>>>>> f731926842258536b694df101c6cbfde0d60c0e7
 def new_feature():
     pass
 
+def name_function():
+    first_name = input("First name:")
+    last_name = input("Last name:")
+    full_name = [first_name, last_name]
+    
 
 def interface():
     choice = 0
