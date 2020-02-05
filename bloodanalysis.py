@@ -33,6 +33,14 @@ def cholesterol_analysis():
         print("The level is {}".format(answer))
 
 
+def fever_check():
+    fever = False
+    for temperature in temp_list
+    if temperature > 37:
+        fever = True
+    return fever
+
+
 def new_feature():
     pass
 
